@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "729120104035",
+    "project_id": "android-music-player-dvx",
+    "storage_bucket": "android-music-player-dvx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729120104035:android:0d0501cd629d3bb84c6256",
+        "android_client_info": {
+          "package_name": "dev.aquiladvx.androidmusicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729120104035-jhbs2vp4vd7dt8mjlt51fh779dqlg6ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvzD9YFIB2la4qzUME3xxzaem1XYimhcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729120104035-jhbs2vp4vd7dt8mjlt51fh779dqlg6ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
