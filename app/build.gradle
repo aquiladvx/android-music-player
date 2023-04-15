@@ -8,17 +8,21 @@ plugins {
 
 
 android {
-    namespace 'dev.aquiladvx.androidmusicplayer'
+    namespace 'dev.aquiladvx.android.musicplayer'
     compileSdk 33
 
     defaultConfig {
-        applicationId "dev.aquiladvx.androidmusicplayer"
+        applicationId "dev.aquiladvx.android.musicplayer"
         minSdk 24
         targetSdk 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    viewBinding {
+        enabled = true
     }
 
     buildTypes {
@@ -40,7 +44,6 @@ dependencies {
 
     implementation 'androidx.core:core-ktx:1.10.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.firebase:firebase-firestore-ktx:24.5.0'
     testImplementation 'junit:junit:4.13.2'
@@ -48,7 +51,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     // Material Design
-    implementation 'com.google.android.material:material:1.10.0-alpha01'
+    implementation 'com.google.android.material:material:1.8.0'
 
     // Architectural Components
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1"
@@ -80,7 +83,6 @@ dependencies {
     //Dagger - Hilt
     implementation "com.google.dagger:hilt-android:2.44"
     kapt "com.google.dagger:hilt-android-compiler:2.44"
-    implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
     kapt "androidx.hilt:hilt-compiler:1.0.0"
 
     // Timber
@@ -99,4 +101,7 @@ dependencies {
     api "com.google.android.exoplayer:exoplayer-core:2.18.5"
     api "com.google.android.exoplayer:exoplayer-ui:2.18.5"
     api "com.google.android.exoplayer:extension-mediasession:2.18.5"
+
+    // Gson
+    implementation 'com.google.code.gson:gson:2.9.0'
 }

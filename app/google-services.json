@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:729120104035:android:0d0501cd629d3bb84c6256",
         "android_client_info": {
-          "package_name": "dev.aquiladvx.androidmusicplayer"
+          "package_name": "dev.aquiladvx.android.musicplayer"
         }
       },
       "oauth_client": [

@@ -1,4 +1,4 @@
-package dev.aquiladvx.androidmusicplayer
+package dev.aquiladvx.android.musicplayer
 
 import org.junit.Test
 
